@@ -12,7 +12,7 @@ module.exports = {
     themeConfig: {
         i18n: {
             defaultLocale: 'en',
-            locales: ['en','zh-Hans']
+            locales: ['en', 'zh-Hans']
         },
         colorMode: {
             defaultMode: 'light'
@@ -49,24 +49,28 @@ module.exports = {
                             to: '/docs/intro',
                         },
                         {
+                            label: 'RSocket Broker工作原理',
+                            to: '/rsocket-broker/how-it-works',
+                        },
+                        {
                             label: 'Kubernetes & Helm',
                             to: 'https://artifacthub.io/packages/helm/alibaba-rsocket-broker/alibaba-rsocket-broker',
                         }
                     ],
                 },
                 {
-                    title: '社区',
+                    title: 'RSocket社区',
                     items: [
                         {
                             label: 'RSocket Home',
                             href: 'https://rsocket.io',
                         },
                         {
-                            label: 'Wiki',
+                            label: 'RSocket Broker Wiki',
                             href: 'https://github.com/alibaba/alibaba-rsocket-broker/wiki',
                         },
                         {
-                            label: 'Issues',
+                            label: 'RSocket Broker Issues',
                             href: 'https://github.com/alibaba/alibaba-rsocket-broker/issues',
                         },
                         {
