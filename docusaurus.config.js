@@ -50,7 +50,7 @@ module.exports = {
                         },
                         {
                             label: 'Kubernetes & Helm',
-                            to: '/docs/intro',
+                            to: 'https://artifacthub.io/packages/helm/alibaba-rsocket-broker/alibaba-rsocket-broker',
                         }
                     ],
                 },
