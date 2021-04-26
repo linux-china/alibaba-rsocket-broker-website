@@ -5,3 +5,4 @@
 # References 
 
 * Docusaurus: https://docusaurus.io/
+* MDX: https://mdxjs.com/
