@@ -1,4 +1,5 @@
 {
   "label": "部署RSocket Broker",
-  "position": 2
+  "position": 4,
+  "collapsed": false
 }
