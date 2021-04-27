@@ -96,6 +96,11 @@ module.exports = {
                     ],
                 },
             ],
+            logo: {
+                alt: 'Alibaba Open Source Logo',
+                src: 'img/alibaba-opensource.png',
+                href: 'https://github.com/alibaba/',
+            },
             copyright: `Copyright © ${new Date().getFullYear()} Alibaba RSocket Broker. Built with Docusaurus.`,
         },
     },
