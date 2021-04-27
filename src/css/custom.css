@@ -7,19 +7,97 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #F6791C;
-  --ifm-color-primary-dark: rgb(33, 175, 144);
-  --ifm-color-primary-darker: rgb(31, 165, 136);
-  --ifm-color-primary-darkest: rgb(26, 136, 112);
-  --ifm-color-primary-light: rgb(70, 203, 174);
-  --ifm-color-primary-lighter: rgb(102, 212, 189);
-  --ifm-color-primary-lightest: rgb(146, 224, 208);
-  --ifm-code-font-size: 95%;
+    --ifm-color-primary: #F6791C;
+    --ifm-color-primary-dark: rgb(33, 175, 144);
+    --ifm-color-primary-darker: rgb(31, 165, 136);
+    --ifm-color-primary-darkest: rgb(26, 136, 112);
+    --ifm-color-primary-light: rgb(70, 203, 174);
+    --ifm-color-primary-lighter: rgb(102, 212, 189);
+    --ifm-color-primary-lightest: rgb(146, 224, 208);
+    --ifm-code-font-size: 95%;
 }
 
 .docusaurus-highlight-code-line {
-  background-color: rgb(72, 77, 91);
-  display: block;
-  margin: 0 calc(-1 * var(--ifm-pre-padding));
-  padding: 0 var(--ifm-pre-padding);
+    background-color: rgb(72, 77, 91);
+    display: block;
+    margin: 0 calc(-1 * var(--ifm-pre-padding));
+    padding: 0 var(--ifm-pre-padding);
+}
+
+/* Section */
+.Section {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow-x: hidden;
+    border-top: 1px solid var(--ifm-table-border-color);
+}
+
+.Section p a {
+    @extend %link-style;
+}
+
+html[data-theme="dark"] .Section p a {
+    @extend %link-style-dark;
+}
+
+/* Two columns */
+
+.TwoColumns {
+    display: grid;
+}
+
+.TwoColumns .column {
+    width: 100%;
+}
+
+.TwoColumns .column.first {
+    grid-area: first;
+}
+
+.TwoColumns .column.last {
+    grid-area: last;
+}
+
+@media only screen and (min-width: 961px) {
+    .TwoColumns {
+        max-width: 95%;
+        margin: 0 auto;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: "first last";
+    }
+
+    .TwoColumns.reverse {
+        grid-template-areas: "last first";
+    }
+
+    .TwoColumns .column {
+        max-width: 100%;
+    }
+
+    .TwoColumns .column.left {
+        padding-right: 50px;
+    }
+
+    .TwoColumns .column.right {
+        padding-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .TwoColumns,
+    .TwoColumns.reverse {
+        grid-template-columns: 1fr;
+        grid-template-areas: "first" "last";
+    }
+
+    .TwoColumns .column {
+        padding: 0 4rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .TwoColumns .column {
+        padding: 0 1.25rem;
+    }
 }
