@@ -91,7 +91,7 @@ module.exports = {
                     ],
                 },
                 {
-                    title: '更多',
+                    title: '更多链接',
                     items: [
                         {
                             label: 'GitHub源码',
