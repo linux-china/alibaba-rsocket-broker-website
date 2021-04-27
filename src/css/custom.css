@@ -24,6 +24,10 @@
     padding: 0 var(--ifm-pre-padding);
 }
 
+.HeadingColor {
+    color: var(--ifm-color-primary);
+}
+
 /* Section */
 .Section {
     width: 100%;
