@@ -3,15 +3,7 @@ sidebar_position: 1
 ---
 
 # RSocket Broker工作原理
-
-RSocket主要包括四种通讯模型，如下：
-
-* Request/Response: 这个主要是解决RPC通讯的场景，也就是常说的请求/响应模式
-* Request/Stream: 该模型类似于Pub/Sub(发布/订阅)模式，可以请求流式数据 
-* Fire and Forget: 无需回执确认的数据发送，如日志传输、Metrics采集等，数据发出去后不需要回执确认，在一些非关键数据场景中使用，性能最高
-* Channel: 双向流式通讯，类似于WebSocket，通讯的双方创建一个虚拟的通讯通道，然后在此通道中相互传输数据，如聊天、实时反馈系统等。
-
-此外RSocket还支持对等(Peer to Peer)通讯，也就是通讯的双方既可以是客户端也可以是服务端。让我们看一下RSocket Broker的架构：
+RSocket除了支持多种通讯模型，此外还支持对等(Peer to Peer)通讯，也就是通讯的双方既可以是客户端也可以是服务端。让我们看一下RSocket Broker的架构：
 
 ![RSocket Broker Network](../../static/img/tutorial/rsocket-broker-network.png)
 
