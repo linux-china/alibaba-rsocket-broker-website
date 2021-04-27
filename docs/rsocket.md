@@ -17,7 +17,7 @@ RSocket是一个基于Reactive语义的异步化的、二进制、消息通讯�
 
 考虑运维维护的需要，RSocket还提供了一个metadataPush的通讯模型，虽然和Fire and Forget模型类似，但是出发点主要是解决通讯双方之间的元信息推送： 
 
-* metadataPush： 在通讯的双方进行元信息推送或事件广播，如Broker架构设计中集群变更通知、应用上下线通知、配置推送等场景
+* metadataPush：通讯的双方进行元信息推送或事件广播，如Broker架构设计中集群变更通知、应用上下线通知、配置推送等场景
 * CloudEvents: CloudEvents是事件描述的规范，建议在使用medataPush推送信息时采用CloudEvents标准规范 https://cloudevents.io/
 
 ### 点对点通讯
