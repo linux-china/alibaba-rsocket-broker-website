@@ -10,6 +10,9 @@ module.exports = {
     organizationName: 'alibaba-rsocket-broker', // Usually your GitHub org/user name.
     projectName: 'alibaba-rsocket-broker-website', // Usually your repo name.
     themeConfig: {
+        themeConfig: {
+            sidebarCollapsible: false
+        },
         i18n: {
             defaultLocale: 'en',
             locales: ['en', 'zh-Hans']
