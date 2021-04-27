@@ -13,20 +13,20 @@ const FeatureList = [
         ),
     },
     {
+        title: '极致性能',
+        image: 'img/broker-performance.png',
+        description: (
+            <>
+                Alibaba RSocket Broker基于全异步化架构设计，通讯过程中内存操作完全是零拷贝(Zero Copy)，二进制路由解析，支持io_uring。
+            </>
+        ),
+    },
+    {
         title: '多语言支持',
         image: 'img/broker-languages.png',
         description: (
             <>
                 RSocket包含对多种主流开发语言的支持，如Java/Kotlin, JavaScript/Node.js/Deno, Python, Golang, Rust等，总计10种以上开发语言。
-            </>
-        ),
-    },
-    {
-        title: '极致性能',
-        image: 'img/broker-performance.png',
-        description: (
-            <>
-               Alibaba RSocket Broker基于全异步化架构设计，通讯过程中内存操作完全是零拷贝(Zero Copy)，二进制路由解析，支持io_uring。
             </>
         ),
     },
