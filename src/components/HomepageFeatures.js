@@ -67,7 +67,7 @@ function Feature({image, title, description}) {
                 <img src={image} alt={title}/>
             </div>
             <div className="text--center padding-horiz--md">
-                <h3>{title}</h3>
+                <h3 className="HeadingColor">{title}</h3>
                 <p>{description}</p>
             </div>
         </div>
