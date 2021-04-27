@@ -23,7 +23,7 @@ docker run --rm --name alibaba-rsocket-broker -p 9997:9997 -p 9998:9998 -p 9999:
 
 如果你使用Docker Compose来管理应用开发环境，只需要在docker-compose.yml中包含以下代码即可：
 
-```yaml
+```yaml title="docker-compose.yml"
 version: "3"
 services:
   alibaba-rsocket-broker:
