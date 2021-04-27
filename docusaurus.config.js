@@ -10,8 +10,8 @@ module.exports = {
     organizationName: 'alibaba-rsocket-broker', // Usually your GitHub org/user name.
     projectName: 'alibaba-rsocket-broker-website', // Usually your repo name.
     themeConfig: {
-        themeConfig: {
-            sidebarCollapsible: false
+        prism: {
+            additionalLanguages: ['java', "properties"],
         },
         i18n: {
             defaultLocale: 'en',
@@ -104,7 +104,7 @@ module.exports = {
             '@docusaurus/preset-classic',
             {
                 theme: {
-                    customCss: require.resolve('./src/css/custom.css'),
+                    customCss: require.resolve('./src/css/custom.css')
                 },
             },
         ],
