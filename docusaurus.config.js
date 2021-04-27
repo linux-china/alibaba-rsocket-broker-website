@@ -48,7 +48,7 @@ module.exports = {
                     title: '文档',
                     items: [
                         {
-                            label: '快速入门',
+                            label: 'RSocket Broker快速入门',
                             to: '/docs/intro',
                         },
                         {
@@ -56,8 +56,8 @@ module.exports = {
                             to: '/docs/rsocket-broker/how-it-works',
                         },
                         {
-                            label: 'Kubernetes & Helm',
-                            to: 'https://artifacthub.io/packages/helm/alibaba-rsocket-broker/alibaba-rsocket-broker',
+                            label: 'Kubernetes部署',
+                            to: '/docs/deployment/kubernetes',
                         }
                     ],
                 },
@@ -77,7 +77,7 @@ module.exports = {
                             href: 'https://github.com/alibaba/alibaba-rsocket-broker/issues',
                         },
                         {
-                            label: 'RSocketByExamples',
+                            label: 'RSocket by Example',
                             href: 'http://rsocketbyexample.info/',
                         },
                     ],
@@ -86,11 +86,15 @@ module.exports = {
                     title: '更多',
                     items: [
                         {
-                            label: 'GitHub',
+                            label: 'GitHub源码',
                             href: 'https://github.com/alibaba/alibaba-rsocket-broker',
                         },
                         {
-                            label: 'Helm Chart',
+                            label: 'RSocket GraalVM native-image',
+                            href: 'https://github.com/alibaba-rsocket-broker/ali-rsocket-graal-demo',
+                        },
+                        {
+                            label: 'RSocket Broker Helm Chart',
                             to: 'https://artifacthub.io/packages/helm/alibaba-rsocket-broker/alibaba-rsocket-broker',
                         },
                     ],
