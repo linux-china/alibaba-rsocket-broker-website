@@ -1,0 +1,27 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+collections 服务调用方 as Requester
+actor     RSocketBroker  as Broker #EF0092
+participant 服务提供方 as Responder
+
+Responder -[#blue]>o Broker: 长连接接入：应用元信息/服务接口列表
+Requester -[#blue]>o Broker: 长连接接入：应用元信息
+
+alt RSocket服务调用
+autonumber 1
+
+Requester -[#EF0092]-> Broker: 发起RSocket服务调用
+activate Broker
+
+Broker -[#EF0092]-> Responder: 解析元信息/服务转发
+activate Responder
+Responder -[#EF0092]-> Broker: 逻辑处理/返回结果
+deactivate Responder
+
+Broker -[#EF0092]-> Requester: 转发给服务调用方
+deactivate Broker
+
+end
+@enduml
