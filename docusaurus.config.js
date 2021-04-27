@@ -53,7 +53,7 @@ module.exports = {
                         },
                         {
                             label: 'RSocket Broker工作原理',
-                            to: '/rsocket-broker/how-it-works',
+                            to: '/docs/rsocket-broker/how-it-works',
                         },
                         {
                             label: 'Kubernetes & Helm',
