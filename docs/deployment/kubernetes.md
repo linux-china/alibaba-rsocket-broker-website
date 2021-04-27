@@ -8,14 +8,14 @@ sidebar_position: 3
 
 RSocket Broker的Helm安装步骤如下：
 
-```
+```bash
 helm repo add alibaba-rsocket-broker https://alibaba-rsocket-broker.github.io/helm/charts/
 helm install rsocket-broker alibaba-rsocket-broker/alibaba-rsocket-broker
 ```
 
 在安装完毕后，你可以使用rsocket-box对RSocket Broker进行测试，启动rsocket-box命令如下： 
 
-```
+```bash
 kubectl run -i --rm --tty rsocket-box --image=linuxchina/rsocket-box --restart=Never --image-pull-policy=Always
 ```
 

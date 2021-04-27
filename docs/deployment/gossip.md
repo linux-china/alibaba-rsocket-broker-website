@@ -10,7 +10,7 @@ sidebar_position: 2
 
 Gossip广播需要种子节点，所以你需要给每一个RSocket Broker实例分配固定的IP，然后将其中的一些IP作为种子地址添加到application.properties配置项中，如下： 
 
-```properties
+```properties title="/src/main/resources/application.properties"
 rsocket.broker.topology=gossip
 rsocket.broker.seeds=192.168.1.2,192.168.1.3,192.168.1.4
 ```
