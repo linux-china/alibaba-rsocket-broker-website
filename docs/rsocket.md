@@ -22,7 +22,7 @@ RSocket是一个基于Reactive语义的异步化的、二进制、消息通讯�
 
 ### 点对点通讯
 
-Rsocket同时还支持P2P(Peer 2 Peer)通讯模型，也就是通讯的双方互为Client/Server，这个也是RSocket Broker设计的基础，可以做到无端口监听发布服务。 
+Rsocket同时还支持P2P(Peer to Peer)通讯模型，也就是通讯的双方互为Client/Server，这个也是RSocket Broker设计的基础，可以做到无端口监听发布服务。 
 
 ### 其他特性: BackPress，Lease和Resume
 此外RSocket还支持以下特性：
