@@ -52,6 +52,7 @@ Alibaba RSocket Broker主要支持以下主流序列化框架，同时还支持�
 * Spring Boot集成：通过alibaba-rsocket-spring-boot-starter快速接入RSocket Broker，兼容Spring RSocket和Spring Cloud RSocket等
 * Spring Boot Actuator支持： 快速了解RSocket接入和通讯情况，支持RSocket Broker的健康度检查
 * Spring Cloud Discovery支持： RSocket Broker可以作为服务注册发现服务器
+* ESB(企业服务总线)对接支持:  Spring Integration, Apache Camel
 
 # 其他协议接入
 
