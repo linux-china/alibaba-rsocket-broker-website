@@ -7,8 +7,8 @@ module.exports = {
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     favicon: '/favicon.ico',
-    organizationName: 'alibaba-rsocket-broker', // Usually your GitHub org/user name.
-    projectName: 'alibaba-rsocket-broker-website', // Usually your repo name.
+    organizationName: 'alibaba', // Usually your GitHub org/user name.
+    projectName: 'alibaba-rsocket-broker', // Usually your repo name.
     themeConfig: {
         prism: {
             additionalLanguages: ['java', "properties"],
@@ -42,7 +42,7 @@ module.exports = {
             ],
         },
         footer: {
-            style: 'dark',
+            style: 'light',
             links: [
                 {
                     title: '文档',
