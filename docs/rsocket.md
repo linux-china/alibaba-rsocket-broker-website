@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# RSocket简单介绍
+# RSocket介绍
 
 RSocket是一个基于Reactive语义的异步化的、二进制、消息通讯协议，它属于应用层协议。
 
