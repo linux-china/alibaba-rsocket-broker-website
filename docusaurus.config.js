@@ -58,7 +58,15 @@ module.exports = {
                         {
                             label: 'Kubernetes部署',
                             to: '/docs/deployment/kubernetes',
-                        }
+                        },
+                        {
+                            label: 'RSocket Broker Wiki',
+                            href: 'https://github.com/alibaba/alibaba-rsocket-broker/wiki',
+                        },
+                        {
+                            label: 'RSocket Broker Issues',
+                            href: 'https://github.com/alibaba/alibaba-rsocket-broker/issues',
+                        },
                     ],
                 },
                 {
@@ -69,16 +77,16 @@ module.exports = {
                             href: 'https://rsocket.io',
                         },
                         {
-                            label: 'RSocket Broker Wiki',
-                            href: 'https://github.com/alibaba/alibaba-rsocket-broker/wiki',
+                            label: 'Reactive Foundation',
+                            href: 'https://www.reactive.foundation/',
                         },
                         {
-                            label: 'RSocket Broker Issues',
-                            href: 'https://github.com/alibaba/alibaba-rsocket-broker/issues',
+                            label: '反应式宣言',
+                            href: 'https://www.reactivemanifesto.org/zh-CN',
                         },
                         {
                             label: 'RSocket by Example',
-                            href: 'http://rsocketbyexample.info/',
+                            href: 'https://rsocketbyexample.info/',
                         },
                     ],
                 },
