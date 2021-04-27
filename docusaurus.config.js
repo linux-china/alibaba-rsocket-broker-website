@@ -2,7 +2,7 @@
 module.exports = {
     title: 'Alibaba RSocket Broker',
     tagline: '快速构建即时响应(Responsive)、自恢复(Resilient)、弹性(Elastic)、消息驱动(Message Driven)的分布式通讯系统',
-    url: 'https://alibaba-rsocket-broker.github.io/',
+    url: 'https://alibroker.info/',
     baseUrl: '/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
@@ -11,7 +11,7 @@ module.exports = {
     projectName: 'alibaba-rsocket-broker', // Usually your repo name.
     themeConfig: {
         prism: {
-            additionalLanguages: ['java', "properties"],
+            additionalLanguages: ['java', 'kotlin', 'properties'],
         },
         i18n: {
             defaultLocale: 'en',
