@@ -21,13 +21,13 @@ rsocket.brokers=tcp://139.196.223.16:9999,tcp://139.196.223.138:9999
 rsocket.jwt-token=xxx
 ```
 
-最后启动你的RSocket应用进行测试就可以。
+最后启动你的RSocket应用进行测试就可以。 详细的样例，你可以参考： https://github.com/alibaba-rsocket-broker/rsocket-broker-simple-example
 
 # Cloud RSocket Broker的优点
 
 * 快捷启动应用，不需要本地启动一个RSocket Broker才能测试
 * 混合云体验： 你的应用同时部署在阿里云、腾讯云，还有一些在私有机房，都没有问题，只要连接到Cloud RSocket Broker上就可以互通，无需任何设置
-* 租户级别的安全隔离：只有JWT token相同的应用之间才能通讯，后续还会加强这方面的安全限定
+* 租户级别的安全隔离：只有JWT token相同的应用之间才能通讯，后续还会加强安全建设
 
 
 
