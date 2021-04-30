@@ -26,8 +26,13 @@ rsocket.jwt-token=xxx
 # Cloud RSocket Broker的优点
 
 * 快捷启动应用，不需要本地启动一个RSocket Broker才能测试
-* 混合云体验： 你的应用同时部署在阿里云、腾讯云，还有一些在私有机房，都没有问题，只要连接到Cloud RSocket Broker上就可以互通，无需任何设置
 * 租户级别的安全隔离：只有JWT token相同的应用之间才能通讯，后续还会加强安全建设
+* 混合云体验： 你的应用同时部署在阿里云、腾讯云，还有一些在私有机房，都没有问题，只要连接到Cloud RSocket Broker上就可以互通，无需任何设置
+
+借助于RSocket Cloud Broker，下图架构完全没有问题，你可以马上使用免费的RSocket Broker测试起来。
+
+![Hybrid Cloud](../static/img/hybrid-cloud.png)
+
 
 
 
