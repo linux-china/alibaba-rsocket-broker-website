@@ -15,7 +15,8 @@ tags: [broker, free]
 rsocket.brokers=tcp://139.196.223.16:9999,tcp://139.196.223.138:9999
 ```
 
-接下来我们执行一下 `curl https://jwt.alibroker.info` 获取对应的JWT token，然后设置为rsocket.jwt-token的属性值，如下：
+接下来我们执行一下 `curl https://jwt.alibroker.info` 获取对应的JWT token， 如果https访问有问题，请尝试使用http `curl http://jwt.alibroker.info`。
+然后设置为rsocket.jwt-token的属性值，如下：
 
 ```properties title="src/main/resources/application.properties"
 rsocket.jwt-token=xxx
