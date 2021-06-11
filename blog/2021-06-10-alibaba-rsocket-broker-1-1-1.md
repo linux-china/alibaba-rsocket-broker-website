@@ -25,3 +25,6 @@ tags: [graphql, rsocket]
 * RSocket Broker控制台: Vaadin升级至20.0
 * RSocket Java SDK升级至1.1.1
 * Spring Boot 2.4.7/2.5.1兼容测试
+
+
+如果你使用Kubernetes，那么建议看一下 [Alibaba RSocket Broker Helm chart](https://artifacthub.io/packages/helm/alibaba-rsocket-broker/alibaba-rsocket-broker) .
