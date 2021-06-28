@@ -54,6 +54,8 @@ public DataFetcher<CompletableFuture<Map<String, Object>>> bookById() {
 
 即便不是GraphQL RSocket方案，如果你做GraphQL异步化时，也要利用好CompletableFuture特性，可以方便你和各种Reactive框架对接，包含异步RPC，R2DBC等。
 
+备注： 如果你使用Netflix的DGS GraphQL框架，从4.2.0版本开始，Mono/Flux可以作为Data Fetcher的返回类型，也就是DGS默认就支持Reactive框架。
+
 ### 分布式的GraphQL
 
 GraphQL其实并不特别复杂，JS/TS对GraphQL的支持不用说啦，我这里以graphql-java为例，我会实现领域服务的同时，也会对外提供GraphQL服务，主要是GraphQL的DataFetcher对接数据库、NoSQL等就非常很多，也发布我们构建相对复杂的查询。 在Domain服务和GraphQL服务合二为一的架构下，下图结构可能就方便 一些：
