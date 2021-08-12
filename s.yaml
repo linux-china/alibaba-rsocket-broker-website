@@ -1,10 +1,12 @@
 edition: 1.0.0
+vars:
+  domain: alibroker.resume.net.cn
 name: alibroker-website
 services:
   frontend:
     component: jamstack
     props:
-      domain: alibroker.resume.net.cn
+      domain: ${vars.domain}
       favicon: true
       defaultApp: portal
       apps:
