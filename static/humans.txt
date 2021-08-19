@@ -1,0 +1,30 @@
+Alibaba RSocket Broker
+============================================
+
+# TEAM
+
+* 雷卷 - 项目核心开发工程师
+  ----------
+  雷卷是项目的核心开发工程师，负责整个产品的研发、文档。
+    - Dingtalk: 雷卷
+
+# Thanks
+
+* RSocket
+  ---
+  Application protocol providing Reactive Streams semantics
+    - Site: https://rsocket.io/
+* RSocket Java SDK
+  ---
+  Java implementation of RSocket
+    - Site: https://github.com/rsocket/rsocket-java
+
+# Site
+
+* Name: Alibaba RSocket Broker
+* Repository: https://github.com/alibaba/alibaba-rsocket-broker
+* Last update: 2021/08/11
+* Language: Chinese/English
+* Tech Stack: Java, Maven, Spring Boot
+* IDE: IntelliJ IDEA
+
