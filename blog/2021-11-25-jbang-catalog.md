@@ -10,7 +10,7 @@ tags: [broker, jbang]
 考虑到方便Java开发人员更快启动Alibaba RSocket Broker进行本地测试，Alibaba RSocket Broker提供Jbang支持，现在你只需要执行以下命令就可以启动RSocket Broker。
 
 ```
-jbang rsocket-broker@alibaba-rsocket-broker
+jbang rsocket-broker@alibaba
 ```
 
 JBang的安装请参考： https://www.jbang.dev/download/ ，如Mac下执行 `brew install jbangdev/tap/jbang` 即可。 
